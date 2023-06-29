@@ -1,0 +1,198 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+ul,ol
+{
+    list-style: none ;
+}
+body
+{
+    background: #bfbfbf url('images/background.jpg') repeat-x; 
+    font-family: Arial, sans-serif;
+}
+header
+{
+    padding: 30px 0;
+}
+header h1
+{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Limelight', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #000;       
+}
+
+
+ section {
+   display: flex;
+   justify-content: center;
+   z-index: 2;
+
+}
+
+ul li{
+   overflow: hidden;
+   display: flex; 
+}
+
+.navigation{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation li{
+    padding: 10px 10px;
+    background-color:#2e3033;
+    color: white;
+    border: 1px solid blue;
+    text-align: center;
+    font-family: 'Limelight', sans-serif;
+}
+
+.imgBlack{
+    background-image: url(./images/bw-image.jpg);
+    width: 700px;
+    height: 500px;
+    position: relative;
+    /* left: 250px; */
+}
+
+.imgColor{
+    background-image: url(./images/color-image.jpg);
+    width: 700px;
+    height: 500px;
+    position: relative;
+    /* bottom: 500px;  */
+}
+
+.card{
+    position: relative;
+    background-color: white;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    /* right: 560px; */
+}
+
+h1{
+    font-family: 'Limelight', sans-serif;
+    text-align: center;
+}
+
+h2{
+    background-color: blue;
+    color: white;
+    font-family: 'Limelight', sans-serif;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    /* padding: 5px 10px; */
+    border-radius: 10px;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Limelight', sans-serif;
+}
+.image{
+    height: 500px;
+}
+
+
+
+/*
+.blockImage{
+    display: flex;
+    justify-content: center;
+}
+.block2 {
+    position: absolute;
+    left: 25%;
+    z-index: 1;
+}
+
+.block:hover{
+    z-index: 1;
+}
+
+.block2:hover{
+    z-index: 2;
+}
+
+
+.card{
+    width: 0;
+    background-color: white;
+    transition: 1s;
+}
+
+.card.active {
+width: 150px;
+}
+
+#johnBlack :hover .card{
+width: 150px;
+} */
+
+li{
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
