@@ -12,14 +12,6 @@ let btn2 = document.getElementById("btn2");
 let btn3 = document.getElementById("btn3");
 let btn4 = document.getElementById("btn4");
 
-let imgs = document.querySelectorAll(".image")
-
-imgs.forEach(element => {
-    element.addEventListener("click", () => {
-        myfunction(element);
-      });
-});
-
 window.onload = defaut();
 
 function defaut() {
@@ -108,29 +100,46 @@ function myfunction(el) {
     img3.querySelector(".imgColor").classList.remove("active");
   }
 }
+
+img.addEventListener("click", () => {
+  // console.log(img);
+  // console.log(img.getAttribute("id"));
+  // L'élément en paramètre
+  myfunction(img);
+});
+
 btn.addEventListener("click", () => {
   myfunction(img);
+});
+
+img1.addEventListener("click", () => {
+  myfunction(img1);
 });
 
 btn1.addEventListener("click", () => {
   myfunction(img1);
 });
 
+img2.addEventListener("click", () => {
+  myfunction(img2);
+});
+
 btn2.addEventListener("click", () => {
   myfunction(img2);
+});
+
+img3.addEventListener("click", () => {
+  myfunction(img3);
 });
 
 btn3.addEventListener("click", () => {
   myfunction(img3);
 });
 
-btn4.addEventListener("click", () => {
+img4.addEventListener("click", () => {
   myfunction(img4);
 });
 
-
-
-
-
-
-
+btn4.addEventListener("click", () => {
+  myfunction(img4);
+});

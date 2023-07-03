@@ -9,7 +9,7 @@ ul,ol
 }
 body
 {
-    background: #bfbfbf url('images/background.jpg') repeat-x; 
+    background: #bfbfbf url('../images/background.jpg') repeat-x; 
     font-family: Arial, sans-serif;
 }
 header h1
@@ -51,7 +51,7 @@ header h1
     width: 140px;
     height: 500px;
     cursor: pointer;
-    background-image: url(./images/bw-image.jpg);
+    background-image: url(../images/bw-image.jpg);
     opacity: 0.7;
 }
 
@@ -63,7 +63,7 @@ header h1
     width: 140px;
     height: 500px;
     cursor: pointer;
-    background-image: url(./images/color-image.jpg);
+    background-image: url(../images/color-image.jpg);
     transition: ease-in 0.3s;
 }
 
@@ -142,39 +142,3 @@ h3{
     background-color:blue;
     border: 2px solid #2e3033;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
