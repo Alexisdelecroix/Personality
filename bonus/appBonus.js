@@ -12,11 +12,15 @@ let btn2 = document.getElementById("btn2");
 let btn3 = document.getElementById("btn3");
 let btn4 = document.getElementById("btn4");
 
+let cursor = document.getElementById("cursor");
+
 window.onload = defaut();
 
 function defaut() {
     img2.classList.toggle("active");
     img2.querySelector(".imgColor").classList.toggle("active");
+    cursor.querySelector(".cursor img").style.left = ("230px")
+    cursor.querySelector(".cursor img").style.bottom = ("280px")
 }
 
 // Function qui ajoute les classes actives.
@@ -25,6 +29,8 @@ function myfunction(el) {
   if (el.getAttribute("id") === "img" || el.getAttribute("id") === "btn") {
     img.classList.toggle("active");
     img.querySelector(".imgColor").classList.toggle("active");
+    cursor.querySelector(".cursor img").style.left = ("112px")
+    cursor.querySelector(".cursor img").style.bottom = ("250px")
     // Suppression
     img1.classList.remove("active");
     img1.querySelector(".imgColor").classList.remove("active");
@@ -40,6 +46,8 @@ function myfunction(el) {
   ) {
     img1.classList.toggle("active");
     img1.querySelector(".imgColor").classList.toggle("active");
+    cursor.querySelector(".cursor img").style.left = ("130px")
+    cursor.querySelector(".cursor img").style.bottom = ("275px")
 
     // Suppression
     img.classList.remove("active");
@@ -56,6 +64,8 @@ function myfunction(el) {
   ) {
     img2.classList.toggle("active");
     img2.querySelector(".imgColor").classList.toggle("active");
+    cursor.querySelector(".cursor img").style.left = ("230px")
+    cursor.querySelector(".cursor img").style.bottom = ("280px")
 
     // Suppression
     img.classList.remove("active");
@@ -72,6 +82,8 @@ function myfunction(el) {
   ) {
     img3.classList.toggle("active");
     img3.querySelector(".imgColor").classList.toggle("active");
+    cursor.querySelector(".cursor img").style.left = ("65px")
+    cursor.querySelector(".cursor img").style.bottom = ("290px")
 
     // Suppression
     img.classList.remove("active");
@@ -88,6 +100,8 @@ function myfunction(el) {
   ) {
     img4.classList.toggle("active");
     img4.querySelector(".imgColor").classList.toggle("active");
+    cursor.querySelector(".cursor img").style.left = ("233px")
+    cursor.querySelector(".cursor img").style.bottom = ("275px")
 
     // Suppression
     img.classList.remove("active");
