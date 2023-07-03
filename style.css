@@ -14,7 +14,7 @@ body
 }
 header
 {
-    padding: 30px 0;
+    /* padding: 30px 0; */
 }
 header h1
 {
@@ -136,20 +136,26 @@ h3{
 
 .navigation{
     /* position: absolute; */
-    margin-top: 20px;
+    margin-top: 40px;
    width: 100%;
     display: flex;
     justify-content: center;
     column-gap: 20px;
 }
 .navigation li{
-    padding: 10px 10px;
+    padding: 10px 25px;
     background-color:#2e3033;
+    border-radius: 15px;
     color: white;
-    border: 1px solid blue;
+    border: 2px solid blue;
     text-align: center;
     font-family: 'Limelight', sans-serif;
     cursor: pointer;
+}
+
+.navigation li:hover{
+    background-color:blue;
+    border: 2px solid #2e3033;
 }
 
 
